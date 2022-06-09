@@ -198,7 +198,7 @@ html {
   
   }
   
-  .footer > span {
+  footer > span {
     margin: auto auto auto auto;
     width: 25rem;
     display: flex;
