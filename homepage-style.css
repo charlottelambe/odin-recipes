@@ -181,7 +181,8 @@ html {
     justify-content: center;
     text-align: center;
   }
-  footer > ul > li > a {
+  
+.footer > ul > li > a {
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
@@ -190,14 +191,14 @@ html {
     margin: 0.5rem auto auto auto;
    }
   
-  footer > ul > li {
+  .footer > ul > li {
   list-style-type: none;
   text-decoration: none;
   
   
   }
   
-  footer > span {
+  .footer > span {
     margin: auto auto auto auto;
     width: 25rem;
     display: flex;
