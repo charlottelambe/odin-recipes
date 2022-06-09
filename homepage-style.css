@@ -152,7 +152,6 @@ html {
   
   
   .footer {
-    margin-top: 15rem;
     background-color: #baffec;
     width: 100%;
     position: absolute;
@@ -161,51 +160,8 @@ html {
     color: #000;
     font-family: sans-serif;
     font-weight: 700;
-    display: flex;
-    justify-content: flex-end;
-    justify-content: space-evenly;
    
        }
     
-    
-  .footer-logo{
-    max-width: 12rem;
-    justify-content: flex-start;
-    margin: 0.5rem 8rem 0.5rem 1rem;
-  
-   
-  }
-  
-  footer > ul {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  
-.footer > ul > li > a {
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    color: #000;
-    vertical-align: center;
-    margin: 0.5rem auto auto auto;
-   }
-  
-  .footer > ul > li {
-  list-style-type: none;
-  text-decoration: none;
-  
-  
-  }
-  
-  footer > span {
-    margin: auto auto auto auto;
-    width: 25rem;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 0.8rem;
-    font-family: sans-serif;
-  }
-  
-  
+ 
   
