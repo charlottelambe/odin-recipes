@@ -166,8 +166,8 @@ html {
     .footer-logo {
         display: flex;
         margin-right: 0;
-        justify-content: center;
-        width: 15rem;
+        padding-left: 2rem;
+        max-width: 15rem;
 }
  
   
