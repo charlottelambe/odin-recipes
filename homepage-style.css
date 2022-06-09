@@ -181,7 +181,7 @@ html {
     justify-content: center;
     text-align: center;
   }
-  footer > ul> li> a {
+  footer > ul > li > a {
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
