@@ -151,15 +151,19 @@ html {
   }
   
   
-  .footer {
+  footer {
     background-color: #baffec;
     width: 100%;
     position: absolute;
     left: 0;
+}
+
+    .footer > ul > a {
     font-size: 0.7rem;
     color: #000;
     font-family: sans-serif;
     font-weight: 700;
+    text-decoration:  none;
    
        }
 
@@ -167,7 +171,7 @@ html {
         display: flex;
         margin-right: 0;
         padding-left: 2rem;
-        max-width: 15rem;
+        max-width: 20rem;
 }
  
   
