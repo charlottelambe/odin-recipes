@@ -161,19 +161,14 @@ html {
 }
 
 
-.footer {
-    display: flex;
-    justify-content: space-evenly;
-    bottom: 0;
-    flex-wrap: wrap;
-  }
-  
+ 
   .footer-list > ul > li > a {
     display: flex;
     justify-content: space-around;
     font-size:  0.8rem;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     vertical-align: center;
+    text-align: center;
     margin: 0.5rem auto auto auto;
     text-decoration: none;
     color: #000;
@@ -182,6 +177,11 @@ html {
    
     
   }
+
+  .footer > ul {
+     display: flex;
+     flex-wrap: wrap;
+}
 
   footer > ul > li {
     list-style: none;
