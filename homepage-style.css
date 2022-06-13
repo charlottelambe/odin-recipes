@@ -192,3 +192,12 @@ html {
      padding-left: 2rem;
      max-width: 18rem;
 } 
+
+footer > span {
+  margin: auto auto auto auto;
+  width: 25rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+  font-family: sans-serif;
+}
