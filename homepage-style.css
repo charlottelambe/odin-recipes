@@ -163,7 +163,7 @@ html {
         justify-content: space-evenly;
 }
 
-    footer> ul> li{
+    footer> ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
