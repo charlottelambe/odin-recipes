@@ -154,32 +154,7 @@ html {
   
   footer {
     background-color: #baffec;
-    width: 100%;
-    position: absolute;
  
 }
 
 
- 
- footer > ul > li {
-    list-style: none;
-    text-align: center;
-    
-  }
-
-  .footer-logo {
-     display: flex;
-     margin-right: 0;
-     padding-left: 2rem;
-     max-width: 18rem;
-} 
-
-footer > span {
-  text-align: center;
-  display: flex;
-  max-width: 25rem;
-    padding-right: 2rem;
-  justify-content: flex-end;
-  font-size: 0.7rem;
-  font-family: sans-serif;
-}
