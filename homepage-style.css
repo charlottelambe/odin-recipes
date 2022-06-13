@@ -155,20 +155,10 @@ html {
   footer {
     background-color: #baffec;
     width: 100%;
-    position: absolute;
-   
+      
 }
 
-.footer {
-    display: flex;
-    flex-shrink: 1;
-}
- 
- footer > ul > li {
-    list-style: none;
-    text-align: center;
-    
-  }
+
 
   .footer-logo {
      display: flex;
@@ -177,11 +167,4 @@ html {
      max-width: 18rem;
 } 
 
-.footer > span {
-  text-align: center;
-  display: flex;
-  padding-right: 2rem;
-  justify-content: flex-end;
-  font-size: 0.7rem;
-  font-family: sans-serif;
-}
+
