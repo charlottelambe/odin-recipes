@@ -194,7 +194,7 @@ html {
 } 
 
 footer > span {
-  margin: auto auto auto auto;
+  text-align: center;
   width: 25rem;
   display: flex;
   justify-content: flex-end;
