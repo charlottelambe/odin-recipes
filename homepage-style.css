@@ -161,7 +161,6 @@ html {
    
 .footer-list {
     display: flex;
-    margin-right: 0rem;
     flex-wrap: wrap;
   }
   
@@ -187,5 +186,5 @@ html {
         display: flex;
         margin-right: 0;
         padding-left: 2rem;
-        max-width: 20rem;
+        max-width: 18rem;
 } 
