@@ -163,6 +163,7 @@ html {
 
 .footer {
     display: flex;
+    justify-content: space-evenly;
     bottom: 0;
     flex-wrap: wrap;
   }
@@ -171,7 +172,9 @@ html {
     display: flex;
     justify-content: space-around;
     font-size:  0.8rem;
-    padding: 1.5rem 1.5rem 1.5rem 2rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    vertical-align: center;
+    margin: 0.5rem auto auto auto;
     text-decoration: none;
     color: #000;
     font-family: sans-serif, arial;
