@@ -13,13 +13,14 @@ html {
     }
   
   
-    .whole-page {
-      margin: auto auto auto auto;
-      padding-left: 4rem;
-      padding-right: 4rem;
-      display: block;
-      text-align: center;
+  .whole-page {
+    margin: auto auto auto auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: block;
+    text-align: center;
     }
+
   .header {
     flex-direction: column;
     position: fixed;
@@ -166,7 +167,7 @@ html {
     flex-wrap: wrap;
   }
   
-  .footer-list a {
+  .footer-list > ul > li > a {
     display: flex;
     justify-content: space-around;
     font-size:  0.8rem;
