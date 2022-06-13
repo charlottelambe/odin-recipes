@@ -160,15 +160,15 @@ html {
 
     .footer {
         display: flex;
-        justify-content: space-evenly;
-}
-
-    footer> ul {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         row-gap: 0.4rem;
         
+}
+
+    footer> ul {
+        display: flex;
+      
 }
 
 
@@ -178,10 +178,12 @@ html {
     font-family: sans-serif;
     font-weight: 700;
     text-decoration: none;
+    display: flex;
    
 }
 
     footer > ul > li {
+        display: flex;
         list-style-type: none;
 }
     .footer-logo {
