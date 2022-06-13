@@ -164,7 +164,7 @@ html {
     flex-wrap: wrap;
   }
   
-  .footer-list a {
+  .footer-list > a {
     display: flex;
     justify-content: space-around;
     font-size:  0.8rem;
@@ -173,15 +173,19 @@ html {
     color: #000;
     font-family: sans-serif, arial;
     font-weight: 700;
-    row-gap: 0.4rem;
+   
     
   }
 
+.footer > ul > li > a {
+    row-gap: 0.4rem;
+}
 
     .footer > ul > li {
         display: flex;
         list-style-type: none;
 }
+
 
     .footer-logo {
         display: flex;
