@@ -1,173 +1,228 @@
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    
-    
-  }
-  *, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-    }
-  
-  
-    .whole-page {
-      margin: auto auto auto auto;
-      padding-left: 4rem;
-      padding-right: 4rem;
-      display: block;
-      text-align: center;
-    }
-  .header {
-    flex-direction: column;
-    position: fixed;
-    width: 100%;
-       
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #baffec;
-   box-shadow: 0 3px 0 #b4fce8;
-    z-index: 1;
-  }
-  
-  .website-logo {
-    max-width: 25rem;
-    max-height: 6rem;
-    margin: auto auto auto auto;
-    padding-left: 3rem;
-    text-align: center;
-  }
-  
-  
-  nav> ul>li {
-    list-style: none;
-    text-align: center;
-    
-  }
-  
-  .nav-list {
-    display: flex;
-    margin-right: 1rem;
-    flex-wrap: wrap;
-  }
-  
-  .nav-list a {
-    display: flex;
-    justify-content: space-around;
-    font-size: 1.1rem;
-    padding: 1rem 1.5rem 1rem 1rem;
-    text-decoration: none;
-    color: #000;
-    font-family: arial;
-    font-weight: bold;
-    
-  }
-  
-  .recipes-section {
-    margin: auto auto auto auto;
-    padding: auto auto auto auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-   
-  }
-  
-  h1, h2 {
-    font: 3rem Georgia, Times New Roman;
-    color: #050ccc;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-  }
-  
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="homepage-style.css">
+        <title>Recipes 4 U</title>
 
-  .section {
-    margin-bottom: 8rem;
-    text-align: center;
+    </head>
 
-  }
+    <body>
+        <div class="header">
+        <nav id="navbar" class="nav">
+            <img class="website-logo" src="https://raw.githubusercontent.com/charlottelambe/odin-recipes/main/images/recipes4ulogo.png" alt="Recipes 4 U Logo"/>
+            
+              <ul class="nav-list">
+                 
+                <li>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a href="./brunch/brunch.html">Brunch</a>
+                </li>
+                <li>
+                  <a href="./soups/soups.html">Soups</a>
+                </li>
+                <li>
+                  <a href="./vegetarian/vegetarian.html">Vegetarian</a>
+                </li>
+                <li>
+                  <a href="./fish/fish.html">Fish</a>
+                </li>
+                <li>
+                  <a href="./chicken/chicken.html">Chicken</a>
+                </li>
+                <li>
+                  <a href="./beef/beef.html">Beef</a>
+                </li>
+                <li>
+                  <a href="./pork/pork.html">Pork</a>
+                </li>
+                <li>
+                  <a href="./desserts/desserts.html">Desserts</a>
+                </li>
+              </ul>
+              
+            
+              
+            </nav>
+                </div>
+            <!-- END NAV -->
+             <div class="whole-page">   
+            <!--START OF ABOUT SECTION-->
+            <div class="section">
+              <div class="first-section">
+                <h1>About Recipes 4 U</h1>
+                <p>After over a decade of home cooking, my passion for trying new recipes and cusines has grown.</p>
+                <p>I developed this site to bring you some fresh exciting recipes to try and some classic favourites that are always a crowd pleaser.</p>
+                <p>From brunch and soups to vegetarian, chicken and desserts, there is a dish for everyone.</p>
+                <p>Happy cooking!</p>
+              </div>
+            </div>
+            <!--END OF ABOUT SECTION-->
+
+            <!--START OF RECIPES SECTION-->
+            <div class="section">
+                <h2>Our Recipes</h2>
+        
+            <div class="recipes-section">
+                
+                  
+
+            <div class="recipes-grid">
+                 
+                 <!--Start of Brunch Tile-->
+                <a
+                  href="./brunch/brunch.html"
+                  target="_blank">
+                  <img
+                    class="recipes-image"
+                    src="./images/brunch/french-toast.jpg"
+                    alt="French Toast"
+                  />
+                  <p class="recipes-title">
+                    Brunch
+                  </p>
+                </a>
+             <!--End of Brunch Tile-->  
+                
+             <!--Start of Soups Tile-->   
+                   <a
+                  href="./soups/soups.html"
+                  target="_blank">
+                  <img
+                    class="recipes-image"
+                    src="./images/soups/leek-and-potato-soup.jpg"
+                    alt="Leek and Potato Soup"
+                  />
+                  <p class="recipes-title">
+                    Soups
+                  </p>
+                </a>
+            <!--End of Soups Tile-->              
+            
+            <!--Start of Vegetarian Tile-->   
+                   <a
+                   href="./vegetarian/vegetarian.html
+                   target="_blank">
+                   <img
+                     class="recipes-image"
+                     src="./images/vegetarian/bruschetta.jpg"
+                     alt="Bruschetta"
+                   />
+                   <p class="recipes-title">
+                     Vegetarian
+                   </p>
+                 </a>
+             <!--End of Vegetarian Tile-->             
+             
+             <!--Start of Fish Tile-->   
+                   <a
+                   href="./fish/fish.html"
+                   target="_blank">
+                   <img
+                     class="recipes-image"
+                     src="./images/fish/spicy-salmon-traybake.jpg"
+                     alt="Spicy Salmon Traybake"
+                   />
+                   <p class="recipes-title">
+                     Fish
+                   </p>
+                 </a>
+             <!--End of Fish Tile-->
+
+             <!--Start of Chicken Tile-->   
+                   <a
+                   href="./chicken/chicken.html"
+                   target="_blank">
+                   <img
+                     class="recipes-image"
+                     src="./images/chicken/garlic-roast-chicken.jpg"
+                     alt="Garlic Roast Chicken"
+                   />
+                   <p class="recipes-title">
+                     Chicken
+                   </p>
+                 </a>
+             <!--End of Chicken Tile-->             
+             
+             <!--Start of Beef Tile-->   
+                   <a
+                   href="./beef/beef.html"
+                   target="_blank">
+                   <img
+                     class="recipes-image"
+                     src="./images/beef/steak-with-peppercorn-sauce.jpg"
+                     alt="Steak with Peppercorn Sauce"
+                   />
+                   <p class="recipes-title">
+                     Beef
+                   </p>
+                 </a>
+             <!--End of Beef Tile-->             
+             
+             <!--Start of Pork Tile-->   
+                   <a
+                   href="./pork/pork.html"
+                   target="_blank">
+                   <img
+                     class="recipes-image"
+                     src="./images/pork/pork-belly-bao-buns.jpg"
+                     alt="Pork Belly Bao Buns"
+                   />
+                   <p class="recipes-title">
+                     Pork
+                   </p>
+                 </a>
+             <!--End of Pork Tile-->              
+             
+             <!--Start of Desserts Tile-->   
+                   <a
+                   href="./desserts/desserts.html"
+                   target="_blank">
+                   <img
+                     class="recipes-image"
+                     src="./images/desserts/lemon-drizzle-cake.jpg"
+                     alt="Lemon Drizzle Cake"
+                   />
+                   <p class="recipes-title">
+                        Desserts
+                   </p>
+                 </a>
+             <!--End of Desserts Tile-->               
+                  
+                </div>
+              </div> 
+                  
+            <!--START OF FOOTER-->
+                   <footer class="footer">
+            <div id="footer-img">
+                   <img class="footer-logo" src="https://raw.githubusercontent.com/charlottelambe/odin-recipes/main/images/recipes4ulogo.png" alt="Recipes 4 U Logo"/>
+                     </div>
+                     
+                   <ul class="footer-list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./brunch/brunch.html">Brunch</a></li>
+                    <li><a href="./soups/soups.html">Soups</a></li>
+                    <li><a href="./vegetarian/vegetarian.html">Vegetarian</a></li>
+                    <li><a href="./fish/fish.html">Fish</a></li>
+                    <li><a href="./chicken/chicken.html">Chicken</a></li>
+                    <li><a href="./beef/beef.html">Beef</a></li>
+                    <li><a href="./pork/pork.html">Pork</a></li>
+                    <li><a href="./desserts/desserts.html">Desserts</a></li>
+                  </ul>
+                <span>Copyright 2022, Recipes 4 U</span>
+                   
+                </footer>
+            <!--END OF FOOTER-->
+                  
+                </div>
+                
+            
+            
+        
+    </body>
 
 
-  .section> p {
-    font: #000 Arial, Sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    
-  }
 
-  .first-section {
-    margin-top: 15rem;
-  }
-  
-  .recipes-grid {
-    display: grid;
-    box-sizing: border-box;
-    grid-template-columns: repeat(auto-fit, minmax(22.66rem , 1fr));
-    grid-gap: 5rem;
-    width: 100%;
-    max-width: 1280px;
-    margin: 3rem auto 3rem auto;
-  
-     
-  }
-  
-  .recipes-grid > a {
-    text-decoration: none;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .recipes-image {
-   height: 21rem;
-    width: 21rem;
-    object-fit: cover;
-    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
-    border-radius: 50%;
-    justify-content: center;
-  }
-  
-    .recipes-title {
-    font-size: 1.5rem;
-    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
-    margin: 1rem auto auto auto;
-    max-width: 20rem;
-    text-align: center;
-    justify-content: center;
-    font: 1.5rem Georgia, Times New Roman;
-    font-weight: 800;
-    color: #000;
-    background: #baffec;
-    border-radius: 1rem;
-  
-  }
-  
-  
-  .footer {
-    background-color: #baffec;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    font-size: 1rem;
-    color: #000;
-    font-family: sans-serif;
-    font-weight: 700;
-   
-       }
-
-    .footer-logo {
-        display: flex;
-        margin-right: 0;
-        padding-left: 2rem;
-        max-width: 10rem;
-}
- 
-  
+</html>
