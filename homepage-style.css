@@ -128,7 +128,7 @@ html {
   }
   
   .recipes-image {
-   height: 21rem;
+    height: 21rem;
     width: 21rem;
     object-fit: cover;
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
@@ -137,24 +137,31 @@ html {
   }
   
     .recipes-title {
-    font-size: 1.5rem;
-    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
-    margin: 1rem auto auto auto;
-    max-width: 20rem;
-    text-align: center;
-    justify-content: center;
-    font: 1.5rem Georgia, Times New Roman;
-    font-weight: 800;
-    color: #000;
-    background: #baffec;
-    border-radius: 1rem;
+        font-size: 1.5rem;
+        padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+        margin: 1rem auto auto auto;
+        max-width: 20rem;
+        text-align: center;
+        justify-content: center;
+        font: 1.5rem Georgia, Times New Roman;
+        font-weight: 800;
+        color: #000;
+        background: #baffec;
+        border-radius: 1rem;
   
   }
   
   
   footer {
     background-color: #baffec;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
  
 }
 
+.footer-logo {
+    max-width: 15rem;
+}
 
