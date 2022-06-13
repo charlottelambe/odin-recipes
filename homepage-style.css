@@ -160,9 +160,10 @@ html {
 
     .footer {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        row-gap: 0.4rem;
+        font-size: 1rem;
+        color: #000;
+        font-family: sans-serif;
+        font-weight: 700;
         
 }
 
@@ -173,12 +174,14 @@ html {
 
 
     footer > ul > a {
-    font-size: 1rem;
-    color: #000;
-    font-family: sans-serif;
-    font-weight: 700;
-    text-decoration: none;
-    display: flex;
+        font-size: 1rem;
+        color: #000;
+        font-family: sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        row-gap: 0.4rem;
    
 }
 
