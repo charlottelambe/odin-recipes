@@ -158,6 +158,9 @@ html {
     left: 0;
 }
 
+.footer {
+    bottom: 0;
+}
    
 .footer-list {
     display: flex;
@@ -176,10 +179,6 @@ html {
    
     
   }
-
-.footer > ul > li > a {
-    row-gap: 0.4rem;
-}
 
     .footer > ul > li {
         display: flex;
