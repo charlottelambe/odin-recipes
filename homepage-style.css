@@ -162,14 +162,15 @@ html {
 
 .footer {
     display: flex;
+    bottom: 0;
     flex-wrap: wrap;
   }
   
-  .footer-list > ul > li > a {
+  .footer-list a {
     display: flex;
     justify-content: space-around;
     font-size:  0.8rem;
-    padding: 1rem 1rem 1.5rem 1rem;
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
     text-decoration: none;
     color: #000;
     font-family: sans-serif, arial;
@@ -178,15 +179,15 @@ html {
     
   }
 
-    .footer > ul > li {
-        display: flex;
-        list-style-type: none;
-}
+  footer > ul > li {
+    list-style: none;
+    text-align: center;
+    
+  }
 
-
-    .footer-logo {
-        display: flex;
-        margin-right: 0;
-        padding-left: 2rem;
-        max-width: 18rem;
+  .footer-logo {
+     display: flex;
+     margin-right: 0;
+     padding-left: 2rem;
+     max-width: 18rem;
 } 
