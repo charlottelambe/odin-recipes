@@ -16,7 +16,7 @@ html {
   .whole-page {
     margin-left: auto;
     margin-right: auto;
-    padding: 0.1rem 4rem 1rem 4rem;
+    padding: 1rem 4rem 1rem 4rem;
     display: block;
     text-align: center;
     }
@@ -106,7 +106,7 @@ html {
   }
 
   .first-section {
-    margin-top: 15rem;
+    margin-top: 5rem;
   }
   
   .recipes-grid {
