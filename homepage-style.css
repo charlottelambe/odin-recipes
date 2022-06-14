@@ -106,10 +106,10 @@ html {
   }
 
   #first-section {
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 
-  @media (max-width: 600px) {
+  @media and (min-width: 385px), (max-width: 600px) {
     #first-section {
          margin-top: 15rem;
      }
