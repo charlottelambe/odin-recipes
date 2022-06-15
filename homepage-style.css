@@ -172,9 +172,10 @@ body {
   
   
   .footer {
-    background-color: #baffec;
+    background: #baffec;
     width: 100%;
-      display: flex;
+    display: flex;
+    margin: 1rem;
      
 }
 
