@@ -3,15 +3,22 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
-    
+        
   }
+
   *, *:before, *:after {
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
     }
   
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
     #page-wrapper {
         position: relative;
         min-height: 100vh;
