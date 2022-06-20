@@ -209,9 +209,10 @@ body {
 	font-style-type: italic;
 	display: flex;
 	justify-content: center;
+	align-content: center;
+	margin: auto auto auto auto;
 	text-align: center;
 	flex-wrap: nowrap;
-	vertical-align: center;
 }
 
 @media only screen and (max-width: 600px) {
